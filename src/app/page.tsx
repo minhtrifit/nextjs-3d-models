@@ -1,4 +1,5 @@
-import SuitCanvas from "@/components/SuitCanvas";
+import SuitCanvas from "@/components/Suit/SuitCanvas";
+import MegaSuitCanvas from "@/components/MegaSuit/MegaSuitCanvas";
 
 export default function Home() {
   return (
@@ -6,7 +7,8 @@ export default function Home() {
       <div className="w-[100vw] max-h-screen overflow-y-auto text-white text-xl p-4">
         HELLO
       </div>
-      <SuitCanvas />
+      {/* <SuitCanvas /> */}
+      <MegaSuitCanvas />
     </section>
   );
 }
